@@ -13,8 +13,6 @@ const pCards = document.querySelector('.positionCards');
  
 
 
-// const wrongSound = () => {
-   // }
    
  let  wSound = new Audio('./sounds/565133__unfa__ui-cancel.flac')
  let rSound = new Audio('./sounds/rightSound.wav')
@@ -40,11 +38,12 @@ const pCards = document.querySelector('.positionCards');
         if(disableCards.length === 12){
             setTimeout(() => {
                
-               //  alert('Parabéns, você ganhou!!!!'); 
-               // 
+             
+              
                Swal.fire({
                   title: 'PARABÉNS',
                   text: 'Voce é fera!!',
+                  
                   imageUrl:'https://media.giphy.com/media/PkPpnkyeC2wYmCqHu5/giphy.gif',
                   imageWidth: 400,
                   imageHeight: 400,

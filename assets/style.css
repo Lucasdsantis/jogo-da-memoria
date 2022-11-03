@@ -66,3 +66,20 @@ audio{
 alert{
     color: aqua;
 }
+
+.swal2-title {
+    
+    color: rgb(123, 81, 240) !important;
+    font-size: 4rem !important;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;;
+    
+}
+
+.swal2-html-container {
+    color: rgb(123, 81, 240) !important;
+    font-size: 2rem !important;
+   
+    
+}
+  
