@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Bangers', cursive;  
+
 }
 
 body{
-    background-color: rgb(138, 136, 136);
+    background-image: url('../images/back\ login.png');
 }
 .positionCards{
     display: grid;
@@ -13,7 +17,8 @@ body{
     gap: 15px;
     width: 100%;
     max-width: 900px;
-    margin: auto
+    margin: auto;
+    padding: 20px;
     
     
 }
@@ -40,7 +45,7 @@ body{
     background-position: center;
 }
 .back{
-    background-image: url('../images/back.png');
+    background-image: url('../images/back\ roxo.png');
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -56,4 +61,8 @@ body{
 audio{
     background-color: rgb(138, 136, 136);
     opacity: 0.6;
+    
+}
+alert{
+    color: aqua;
 }

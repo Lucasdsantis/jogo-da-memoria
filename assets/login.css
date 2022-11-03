@@ -12,18 +12,23 @@
 }
 
 body{
+    background-image: url('../images/back\ login.png');
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background-color: rgb(100, 168, 247);
+    
 }
 
 .title{
-    font-size: 50px;
+    font-size: 70px;
     justify-content: center;
     height: 400px;
+    color: rgb(123, 81, 240);
+    font-weight: 400;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;;
     
 }
 .login-button{
@@ -31,4 +36,7 @@ body{
     width: 200px;
     height: 60px;
     margin-bottom: 200px;
+    border: 3px solid black;;
+    border-radius: 10px;
+    color: rgb(123, 81, 240);
 }
