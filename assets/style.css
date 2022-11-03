@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(184, 183, 183);
+    background-color: rgb(138, 136, 136);
 }
 .positionCards{
     display: grid;
@@ -13,8 +13,8 @@ body{
     gap: 15px;
     width: 100%;
     max-width: 900px;
-  
-    margin: 20px auto
+    margin: auto
+    
     
 }
 .card{
@@ -40,7 +40,9 @@ body{
     background-position: center;
 }
 .back{
-    background-color: rgb(51, 80, 62);
+    background-image: url('../images/back.png');
+    background-size: cover;
+    background-position: center;
     backface-visibility: hidden;
 }
 
@@ -50,4 +52,8 @@ body{
 
 .disabled-card{
     opacity: 0.5;
+}
+audio{
+    background-color: rgb(138, 136, 136);
+    opacity: 0.6;
 }
